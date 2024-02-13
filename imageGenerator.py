@@ -59,12 +59,14 @@ def main():
 
     
 
-def save_time(image_name, time_taken, width, height):
+def save_time(image_name, time_taken, width, height, num_images):
     with open("time.txt", "a") as file:
         file.write(f"{width}x{height}/{image_name}: {time_taken}\n")
         # Also write device information and date and time
         file.write(f"Device: {os.uname()}\n")
         file.write(f"Date and Time: {time.ctime()}\n")
+        # Also write how many images it generated
+        file.write(f"Number of Images: {num_images}\n")
         file.write("\n")
 
 
@@ -79,7 +81,7 @@ def generateOneImage(image_name, width, height):
     # if the file does not exist, create it
     # if the file exists, append the time to the file
     # write in the format of "image_name: time_taken" in seconds
-    save_time(image_name, end - start, width, height)
+    save_time(image_name, end - start, width, height, 1)
 
 
 def generateMultipleImages(image_name, width, height, num_images):
@@ -94,7 +96,7 @@ def generateMultipleImages(image_name, width, height, num_images):
     # if the file does not exist, create it
     # if the file exists, append the time to the file
     # write in the format of "image_name: time_taken" in seconds
-    save_time(image_name, end - start, width, height)
+    save_time(image_name, end - start, width, height, num_images)
 
 # Generate the image with the given resolution
 def generate_image_usingLibrary(image_name, width, height):

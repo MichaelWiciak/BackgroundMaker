@@ -42,3 +42,12 @@ Date and Time: Tue Feb 13 16:07:16 2024
 Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
 Date and Time: Tue Feb 13 16:09:38 2024
 
+2560x1600/try2: 950.5454831123352
+Device: posix.uname_result(sysname='Darwin', nodename='192.168.1.100', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 18:57:43 2024
+
+10x10/try2: 0.010216951370239258
+Device: posix.uname_result(sysname='Darwin', nodename='192.168.1.100', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 19:13:22 2024
+Number of Images: 2
+

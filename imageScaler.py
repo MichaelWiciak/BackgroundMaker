@@ -66,10 +66,6 @@ def scale_image(image_path, width, height, save_path):
     print(f"Scaled Resolution: {image.size}")
 
 
-    
-
-
-
 
 if __name__ == "__main__":
     main()
