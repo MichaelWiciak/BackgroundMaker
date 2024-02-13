@@ -10,3 +10,6 @@ Read time.txt for logs and time taken for each image generation.
 
 
 Note: Most generated wallpapers are not included in this repo except some magnificent quality ones. 
+
+How the library works: https://pypi.org/project/randimage/#description
+
