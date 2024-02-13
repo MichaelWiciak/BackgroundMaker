@@ -1,0 +1,36 @@
+wallpaper: 2.8874640464782715
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:07:46 2024
+
+anotherWallapper: 603.953800201416
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:19:52 2024
+
+anotherWallapper1: 85.79857516288757
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:22:29 2024
+
+anotherWallapper2: 75.20143580436707
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:30:57 2024
+
+anotherWallapper3: 90.6106379032135
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:34:32 2024
+
+anotherWallapper4: 86.53875207901001
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 11:46:17 2024
+
+anotherWallapper5: 83.97938418388367
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 12:44:32 2024
+
+['100', '100']/anotherWallapper5: 0.18995404243469238
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 13:11:43 2024
+
+100x100/anotherWallapper5: 0.18567895889282227
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air.local', release='23.2.0', version='Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Feb 13 13:13:18 2024
+
