@@ -42,7 +42,7 @@ def main():
     height = int(resolution[1])
 
     # Check if the resolution is valid (positive integers) and less than 4k so that the image is not too large
-    if width <= 0 or height <= 0 or width > 3840 or height > 2160:
+    if width <= 0 or height <= 0 or width > 3840 or height > 2532:
         print("Invalid resolution")
         return
     
