@@ -8,6 +8,8 @@
 
 This project consists of two main Python scripts: **ImageGenerator.py** and **ImageScaler.py**. These scripts allow users to generate random images with specified resolutions and scale existing images to desired sizes. There is also a Subreddit (r/randimageMW) which showcases some of the images I and other generated. 
 
+https://www.reddit.com/r/randimageMW/
+
 ## Prerequisites
 
 - Python 3.x
