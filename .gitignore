@@ -6,6 +6,7 @@ __pycache__/
 .DS_Store
 
 UploadToRedditBatch/*.png
+UploadToRedditBatch/Uploaded/*.png
 
 # C extensions
 *.so
