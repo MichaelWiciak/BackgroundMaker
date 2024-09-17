@@ -33,9 +33,15 @@ utc_time_str = utc_now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
 # Path to the image
 image_path = 'Images/2560x1600/17092024_1.png'
-image_title = 'This image was uploaded on ' + utc_time_str + ' by Michael Wiciak (bot). Code found at https://github.com/MichaelWiciak/BackgroundMaker'
+image_title = 'Image uploaded on ' + utc_time_str + ' by Michael Wiciak (bot).'
 
 # Submit an image post with the current time as the title
-subreddit.submit_image(title=image_title, image_path=image_path)
 
-print("Image posted successfully!")
+returnCode = subreddit.submit_image(title=image_title, image_path=image_path)
+
+if returnCode != 200:
+    print("Image post failed!")
+else:
+    print("Image posted successfully!")
+
+
