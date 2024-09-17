@@ -48,8 +48,6 @@ def main():
     # Loop through all the files in the folder
     counter = 0
     for image_file in os.listdir(image_folder):
-        if counter == 2:
-            break
         # Make sure we only upload images (you can add other formats if needed but at the moment it only deals with .png) 
         if image_file.lower().endswith(('.png')):
             # Full path to the image
@@ -60,7 +58,8 @@ def main():
             utc_time_str = utc_now.strftime("%Y-%m-%d %H:%M:%S UTC")
             # Calculate the hash of the image
             image_hash = generate_hash(image_path)
-            image_title = f"{image_hash} Image uploaded on {utc_time_str} by Michael Wiciak (bot)."
+            image_title = f"{utc_time_str} - {image_hash} - by Michael Wiciak (bot)"
+            print(f"Posting image '{image_file}' with title '{image_title}'...")
             
             try:
                 # Submit the image
