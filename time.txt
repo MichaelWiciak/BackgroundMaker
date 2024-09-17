@@ -66,3 +66,8 @@ Device: posix.uname_result(sysname='Darwin', nodename='192.168.1.100', release='
 Date and Time: Wed Feb 14 15:28:49 2024
 Number of Images: 3
 
+2560x1600/17092024: 2026.8418772220612
+Device: posix.uname_result(sysname='Darwin', nodename='192.168.1.101', release='23.6.0', version='Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:21 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Sep 17 21:12:45 2024
+Number of Images: 20
+
