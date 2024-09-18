@@ -1,4 +1,3 @@
-import hashlib
 from PIL import Image, ImageDraw, ImageFont
 
 def sha1_to_chinese(sha1):
