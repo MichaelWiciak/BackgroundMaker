@@ -2,9 +2,6 @@ import sys
 import os
 from PIL import Image
 
-
-
-
 def main():
     # Take the path of the file to scale as the first command line argument
     # Take the resolution to scale the image to as the second command line argument in the format of 'num'x'num'
@@ -64,7 +61,6 @@ def scale_image(image_path, width, height, save_path):
     # Save the scaled image
     image.save(save_path)
     print(f"Scaled Resolution: {image.size}")
-
 
 
 if __name__ == "__main__":

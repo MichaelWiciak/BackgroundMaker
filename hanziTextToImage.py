@@ -24,7 +24,6 @@ def add_text_to_image(image_path, sha1_hash):
     font_size = 300
     font_path = "/Library/Fonts/HanyiSentyPagoda Regular.ttf"  # Adjust the path to your font file
 
-    
     # Calculate position to center the text
     x = (image.size[0]) // 2
     y = (image.size[1]) // 2
