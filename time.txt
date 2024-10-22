@@ -86,3 +86,8 @@ Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air-3.lo
 Date and Time: Tue Oct 22 15:29:32 2024
 Number of Images: 30
 
+2560x1600/22102024: 3182.8857951164246 seconds
+Device: posix.uname_result(sysname='Darwin', nodename='Michaels-MacBook-Air-3.local', release='23.6.0', version='Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:21 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T8103', machine='arm64')
+Date and Time: Tue Oct 22 16:23:05 2024
+Number of Images: 30
+
